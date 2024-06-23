@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" viewBox="0 0 22 21">
+  <g id="market" transform="translate(-2 -3)">
+    <path id="Path_84783" data-name="Path 84783" d="M21.754,3H4.245L2,9.5a2.522,2.522,0,0,0,2,2.426V24H22V11.926A2.522,2.522,0,0,0,24,9.5ZM4.955,4h16.09L22.62,8.5H3.38ZM21,23H12.5V15.5h-6V23H5V11.97a2.677,2.677,0,0,0,1.7-1,2.659,2.659,0,0,0,4.2,0,2.659,2.659,0,0,0,4.2,0,2.66,2.66,0,0,0,4.2,0,2.677,2.677,0,0,0,1.7,1Z" fill="#f8a438"/>
+    <path id="Path_84784" data-name="Path 84784" d="M25,28h6.5v4H25Z" transform="translate(-11.5 -12.5)" fill="#036"/>
+    <path id="Path_84785" data-name="Path 84785" d="M11,24h6v1H11Z" transform="translate(-4.5 -10.5)" fill="#036"/>
+  </g>
+</svg>

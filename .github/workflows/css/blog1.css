@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.blog-main-content {
+  padding: 2rem 5rem;
+  border-bottom: 1px solid #2D2D2D;
+}
+.blog-main-content .heading {
+  text-align: left;
+  font-weight: 300;
+}
+.blog-main-content .blog-inner-heading {
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog-main-content .blog-inner-heading .inner-left {
+  display: flex;
+}
+.blog-main-content .blog-inner-heading .inner-left .inner-heading-right {
+  padding: 0rem 1rem;
+}
+.blog-main-content .blog-inner-heading .inner {
+  padding: 0rem 1rem;
+  text-align: right;
+}
+.blog-main-content .blog-inner-heading .inner-right {
+  display: flex;
+  align-items: end;
+}
+.blog-main-content .blog-inner-heading .inner-right .inner-para p {
+  color: #FC9C1D;
+  font-weight: 400;
+  margin: 0;
+  padding: 0.7rem 0 rem;
+}
+.blog-main-content .blog-image {
+  padding: 1rem 0rem;
+  position: relative;
+}
+.blog-main-content .blog-image .img-fluid {
+  border-radius: 30px;
+}
+.blog-main-content .blog-image .right-blog-image {
+  position: absolute;
+  top: -3%;
+  right: -5%;
+  z-index: -1;
+}
+.blog-main-content .blog-image .left-blog-image {
+  position: absolute;
+  z-index: -1;
+  bottom: -3%;
+  left: -3%;
+}
+.blog-main-content .decription-content {
+  padding: 2rem 0rem;
+}
+.blog-main-content .decription-content .body p {
+  padding: 0.3rem 0rem;
+  color: #2D2D2D;
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+}
+.blog-main-content .decription-content .conclusion h3 {
+  color: #FC9C1D;
+}
+
+h1 {
+  font-size: 40px !important;
+}
+
+h2 {
+  font-size: 26px !important;
+}
+
+h3 {
+  font-size: 24px !important;
+}
+
+h4 {
+  font-size: 23px !important;
+}
+
+h5 {
+  font-size: 21px !important;
+}
+
+h6 {
+  font-size: 19px !important;
+}
+
+span {
+  color: #FC9C1D;
+}
+
+.heart-image {
+  width: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .blog-main-content {
+    padding: 0rem 0rem;
+    padding: 2rem 1rem;
+  }
+  .blog-main-content .blog-inner-heading {
+    flex-wrap: wrap;
+  }
+  .blog-main-content .blog-image .right-blog-image {
+    width: 50%;
+  }
+  .blog-main-content .blog-image .left-blog-image {
+    width: 50%;
+  }
+}

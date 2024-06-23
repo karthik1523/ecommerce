@@ -1,0 +1,474 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  behavior: "smooth" !important;
+}
+
+.changing {
+  transition: all ease-in-out 0.1s;
+}
+
+body {
+  color: #003366 !important;
+}
+
+.contents-container {
+  margin-top: 100px;
+  position: relative;
+}
+.contents-container .section-1 {
+  padding: 0% 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.contents-container .section-1 .left-section {
+  position: relative;
+  font-size: 3.5vw;
+  font-weight: 300;
+  width: 50%;
+}
+.contents-container .section-1 .left-section span {
+  color: #01BF69;
+}
+.contents-container .section-1 .left-section .span {
+  background-image: url(https://supplybuy.s3.ap-south-1.amazonaws.com/website/images/under-line-2\ \(1\).png);
+  height: 70px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: inline-block;
+  line-height: 20px;
+  padding: 0 5px;
+  /*Uncomment below if you want the image to stretch only when text in div goes beyond the image width-wise.*/
+  /*background-size:cover;*/
+}
+.contents-container .section-1 .left-section .input-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+}
+.contents-container .section-1 .left-section .input-section .input {
+  width: 25vw;
+  background-color: #EBF5FF;
+  border-radius: 30px;
+  box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  height: 60px;
+  border: 1px solid #EBF5FF;
+}
+.contents-container .section-1 .left-section .input-section .btn-alt {
+  padding: 15px 35px;
+  background-color: #FC9C1D;
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+  border-radius: 33px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  margin-left: 5px;
+}
+.contents-container .section-1 .left-section .square-decor {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.contents-container .section-1 .left-section .dot {
+  position: absolute;
+  bottom: 20%;
+  right: 0;
+  z-index: -1;
+}
+.contents-container .section-1 .left-section .playstore {
+  padding: 0;
+  line-height: 0;
+}
+.contents-container .section-1 .left-section .playstore .img-fluid {
+  width: 13vw;
+}
+.contents-container .section-1 .right-section {
+  width: 50%;
+  height: 23vw;
+  position: relative;
+}
+.contents-container .section-1 .right-section .invent-1 {
+  width: 40vw;
+}
+.contents-container .section-1 .right-section .inner-right-content {
+  position: absolute;
+  right: -20%;
+  top: -17%;
+}
+.contents-container .section-3 {
+  margin-top: 30px;
+  padding: 2% 5%;
+}
+.contents-container .section-3 .title-content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.contents-container .section-3 .title-content .input-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+}
+.contents-container .section-3 .title-content .input-section .input {
+  width: 300px;
+  background-color: #EBF5FF;
+  border-radius: 30px;
+  box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  height: 60px;
+  border: 1px solid #EBF5FF;
+}
+.contents-container .section-3 .title-content .input-section .btn-alt {
+  padding: 15px 35px;
+  background-color: #FC9C1D;
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+  border-radius: 33px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  margin-left: 5px;
+}
+.contents-container .section-3 .body-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
+.contents-container .section-3 .body-content .left-content {
+  padding: 5% 0%;
+  position: relative;
+  width: 20%;
+}
+.contents-container .section-3 .body-content .left-content .inner-image {
+  position: relative;
+  height: 100%;
+}
+.contents-container .section-3 .body-content .left-content .inner-image::after {
+  content: url(https://supplybuy.s3.ap-south-1.amazonaws.com/website/images/round-decoration.svg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.contents-container .section-3 .body-content .left-content .inner-title {
+  text-align: left;
+  color: #01BF69;
+  font-size: 29px;
+  padding: 2% 0%;
+}
+.contents-container .section-3 .body-content .left-content .heading-decoration {
+  position: absolute;
+  bottom: -15%;
+  z-index: -1;
+}
+.contents-container .section-3 .body-content .left-content .count-content {
+  color: #2B2B2B;
+  font-size: 20px;
+}
+.contents-container .section-3 .body-content .left-content .btn-alt {
+  padding: 15px 35px;
+  margin-top: 30px;
+  background-color: #FC9C1D;
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+  border-radius: 33px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  margin-left: 5px;
+}
+.contents-container .section-3 .body-content .right-content {
+  transition: all ease-in-out 1s;
+  width: 80%;
+  scroll-behavior: smooth;
+  padding: 3% 0%;
+  overflow: hidden;
+  overflow-x: scroll;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+.contents-container .section-3 .body-content .right-content .inner-content-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contents-container .section-3 .body-content .right-content .inner-content-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.contents-container .section-3 .body-content .right-content .inner-image .inner-title {
+  text-align: center;
+  color: #444444;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3%;
+}
+.contents-container .section-3 .body-content .right-content .direction {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  bottom: -20px;
+  right: 0;
+  z-index: 5;
+}
+.contents-container .section-3 .body-content .right-content::-webkit-scrollbar {
+  height: 8px;
+}
+.contents-container .section-3 .body-content .right-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.contents-container .section-3 .body-content .right-content::-webkit-scrollbar-thumb {
+  background: #FC9C1D;
+  border-radius: 6px;
+}
+.contents-container .section-3 .body-content .right-content::-webkit-scrollbar-thumb:hover {
+  background: #003366;
+}
+.contents-container .left-decoration {
+  position: absolute;
+  left: 0;
+  top: 27%;
+  z-index: -1;
+}
+.contents-container .right-decoration {
+  position: absolute;
+  right: 0;
+  bottom: 44%;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: white;
+  margin: 0% 1%;
+  width: 234px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1607843137);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+}
+.image-container img {
+  width: 160px;
+  height: 160px;
+  padding: 5%;
+}
+.image-container .inner-title {
+  width: 234px;
+  color: #003366;
+  font-size: 14px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 1% 3%;
+}
+.image-container .inner-title-2 {
+  width: 234px;
+  color: #FC9C1D;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 1% 2%;
+}
+.image-container .content-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-container .toolip-content {
+  width: 30%;
+  padding: 1% 2%;
+  background-color: #01BF69;
+  color: white;
+  border-radius: 0px 12px 0px 0px;
+}
+.image-container .button {
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: 4% 0%;
+}
+
+@media only screen and (max-width: 768px) {
+  .contents-container .section-1 {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .contents-container .section-1 .left-section {
+    font-size: 35px;
+    width: 100%;
+  }
+  .contents-container .section-1 .left-section span {
+    color: #F8A438;
+  }
+  .contents-container .section-1 .left-section .input-section {
+    display: none;
+    padding: 5%;
+  }
+  .contents-container .section-1 .left-section .input-section .input {
+    width: 100%;
+  }
+  .contents-container .section-1 .left-section .input-section .btn-alt {
+    padding: 10px 20px;
+  }
+  .contents-container .section-1 .left-section .square-decor {
+    right: 30px;
+    top: 0;
+    z-index: -1;
+  }
+  .contents-container .section-1 .left-section .playstore .img-fluid {
+    width: 35vw;
+  }
+  .contents-container .section-1 .right-section {
+    width: 100%;
+    height: 46vw;
+    position: relative;
+  }
+  .contents-container .section-1 .right-section .invent-1 {
+    width: 70vw;
+  }
+  .contents-container .section-1 .right-section .inner-right-content {
+    position: absolute;
+    right: -20%;
+    top: -17%;
+  }
+  .contents-container .section-3 .title-content {
+    display: block;
+    width: 100%;
+  }
+  .contents-container .section-3 .title-content .input-section {
+    padding: 5%;
+  }
+  .contents-container .section-3 .title-content .input-section .input {
+    width: 100%;
+  }
+  .contents-container .section-3 .title-content .input-section .btn-alt {
+    padding: 10px 20px;
+  }
+  .contents-container .section-3 .body-content {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .contents-container .section-3 .body-content .left-content {
+    width: 100%;
+    padding: 10% 0%;
+  }
+  .contents-container .section-3 .body-content .left-content .inner-image::after {
+    content: url(https://supplybuy.s3.ap-south-1.amazonaws.com/website/images/round-decoration.svg);
+    position: absolute;
+    width: 50px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .contents-container .section-3 .body-content .left-content .inner-title {
+    text-align: center;
+  }
+  .contents-container .section-3 .body-content .left-content .count-content {
+    color: #2B2B2B;
+    font-size: 20px;
+  }
+  .contents-container .section-3 .body-content .left-content .heading-decoration {
+    right: 0;
+    bottom: 100px;
+    z-index: -1;
+  }
+  .contents-container .section-3 .body-content .left-content .heading-decoration .img-fluid {
+    width: 50px;
+  }
+  .contents-container .section-3 .body-content .right-content {
+    width: 110%;
+    padding: -5%;
+    margin: -5%;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+  }
+  .contents-container .section-3 .body-content .right-content .inner-image {
+    padding: 3%;
+  }
+  .contents-container .left-decoration {
+    z-index: -2;
+  }
+  .contents-container .left-decoration .img-fluid {
+    width: 50px;
+  }
+  .contents-container .right-decoration {
+    z-index: -2;
+  }
+  .contents-container .right-decoration .img-fluid {
+    width: 50px;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    margin: 0% 1.5%;
+    width: 170px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1607843137);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  }
+  .image-container img {
+    width: 120px;
+    height: 120px;
+    padding: 10%;
+  }
+  .image-container .inner-title {
+    width: 170px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #003366;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 1% 3%;
+  }
+  .image-container .inner-title-2 {
+    width: 170px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #FC9C1D;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 1% 2%;
+  }
+  .image-container .content-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-container .toolip-content {
+    width: 50%;
+    padding: 1% 2%;
+    font-size: 10px;
+    background-color: #01BF69;
+    color: white;
+    border-radius: 0px 12px 0px 0px;
+  }
+  .image-container .button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 4% 0%;
+  }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="511.945" height="411" viewBox="0 0 411.945 311">
+  <g id="Group_46459" data-name="Group 46459" transform="translate(-962.146 -6328.622)">
+    <ellipse id="Ellipse_161" data-name="Ellipse 161" cx="51.5" cy="51" rx="51.5" ry="51" transform="translate(962.146 6432.622)" fill="#ffdd60"/>
+    <path id="Path_84822" data-name="Path 84822" d="M102.5,0c0,1,1,204,0,205a102.5,102.5,0,0,1,0-205Z" transform="translate(1271.146 6328.622)" fill="#09f"/>
+    <path id="Rectangle_21399" data-name="Rectangle 21399" d="M0,0H51.5A51.5,51.5,0,0,1,103,51.5v0A51.5,51.5,0,0,1,51.5,103h0A51.5,51.5,0,0,1,0,51.5V0A0,0,0,0,1,0,0Z" transform="translate(962.146 6328.622)" fill="#01bf69"/>
+    <path id="Rectangle_21402" data-name="Rectangle 21402" d="M51.5,0H103a0,0,0,0,1,0,0V51.5A51.5,51.5,0,0,1,51.5,103h0A51.5,51.5,0,0,1,0,51.5v0A51.5,51.5,0,0,1,51.5,0Z" transform="translate(1168.146 6536.622)" fill="#f0d1b5"/>
+    <path id="Rectangle_21403" data-name="Rectangle 21403" d="M50,0h1a50,50,0,0,1,50,50v0a50,50,0,0,1-50,50H0a0,0,0,0,1,0,0V50A50,50,0,0,1,50,0Z" transform="translate(1271.146 6536.622)" fill="#036"/>
+    <path id="Rectangle_21400" data-name="Rectangle 21400" d="M161,0h44a0,0,0,0,1,0,0V44A161,161,0,0,1,44,205H0a0,0,0,0,1,0,0V161A161,161,0,0,1,161,0Z" transform="translate(1066.146 6328.622)" fill="#fc9c1d"/>
+    <path id="Rectangle_21401" data-name="Rectangle 21401" d="M0,0H126a80,80,0,0,1,80,80v21a0,0,0,0,1,0,0H80A80,80,0,0,1,0,21V0A0,0,0,0,1,0,0Z" transform="translate(962.146 6536.622)" fill="#80bfff"/>
+  </g>
+</svg>
