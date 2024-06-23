@@ -1,0 +1,617 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    behavior: 'smooth'!important
+}
+.changing{
+    transition: all ease-in-out .1s;
+ 
+}
+
+body{
+    color: #003366 !important;
+
+}
+.contents-container{
+    margin-top: 100px;
+    position: relative;
+    .section-1{
+        padding: 0% 5%;
+        display: flex;
+      
+        justify-content: space-between;
+        align-items: flex-start;
+        .left-section{
+            position: relative;
+            font-size: 3.5vw;
+            font-weight: 300;
+       
+            width: 50%;
+           
+            span{
+                color: #01BF69;
+               
+            }
+            .span{
+                background-image:url(https://supplybuy.s3.ap-south-1.amazonaws.com/website/images/under-line-2\ \(1\).png);
+                height: 70px;
+                background-repeat:no-repeat;
+                background-position: bottom;
+                display: inline-block;
+                line-height: 20px;
+                padding: 0 5px;
+                /*Uncomment below if you want the image to stretch only when text in div goes beyond the image width-wise.*/
+                /*background-size:cover;*/ 
+              
+              }
+            .input-section {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                margin-top: 30px;
+             
+    
+                .input {
+                    width: 25vw;
+                    background-color: #EBF5FF;
+                    border-radius: 30px;
+                    box-shadow: inset 0px 3px 6px #00000029;
+                    height: 60px;
+                    border: 1px solid #EBF5FF;
+                }
+    
+                .btn-alt {
+                    padding: 15px 35px;
+                    background-color: #FC9C1D;
+                    color: white;
+                    font-weight: 300;
+                    font-size: 18px;
+                    border-radius: 33px;
+                    box-shadow: 0px 3px 6px #00000029;
+                  
+                    margin-left: 5px;
+                }
+            }
+            .square-decor{
+                position: absolute;
+                right: 0;
+                top: 0;
+                z-index: -1;
+            }
+            .dot{
+                position: absolute;
+                bottom: 20%;
+                right: 0;
+                z-index: -1;
+            }
+            .playstore{
+                padding: 0;
+                line-height: 0;
+                .img-fluid{
+                    width: 13vw;
+                }
+            }
+        }
+        .right-section{
+            width: 50%;
+            height: 23vw;
+            position: relative;
+         
+          .invent-1{
+            width: 40vw;
+          }
+
+          .inner-right-content{
+            position: absolute;
+            right: -20%;
+            top: -17% ;
+          }
+            
+
+          
+
+            
+           
+           
+        }
+    }
+    .section-3{
+        margin-top: 30px;
+        padding: 2% 5%;
+        .title-content{
+           display: flex;
+           justify-content: flex-end;
+           align-items: center;
+           .input-section {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 30px;
+         
+
+            .input {
+                width: 300px;
+                background-color: #EBF5FF;
+                border-radius: 30px;
+                box-shadow: inset 0px 3px 6px #00000029;
+                height: 60px;
+                border: 1px solid #EBF5FF;
+            }
+
+            .btn-alt {
+                padding: 15px 35px;
+                background-color: #FC9C1D;
+                color: white;
+                font-weight: 300;
+                font-size: 18px;
+                border-radius: 33px;
+                box-shadow: 0px 3px 6px #00000029;
+              
+                margin-left: 5px;
+            }
+        }
+        }
+        .body-content{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+       
+            position: relative;
+          
+           .left-content{
+            padding: 5% 0%;
+            position: relative;
+            width: 20%;
+            .inner-image{
+                position: relative;
+                height: 100%;
+                
+            }
+            .inner-image::after{
+                content: url(https://supplybuy.s3.ap-south-1.amazonaws.com/website/images/round-decoration.svg);
+                position: absolute;
+                top: 0;
+               left: 0;
+                z-index: -1;
+            }
+            .inner-title{
+                text-align: left;
+                color: #01BF69;
+                font-size: 29px;
+                padding: 2% 0%;
+                
+            }
+            .heading-decoration{
+                position: absolute;
+                bottom: -15%;
+                z-index: -1;
+               
+            }
+            .count-content{
+                color: #2B2B2B;
+                font-size: 20px;
+                
+            }
+            .btn-alt {
+                padding: 15px 35px;
+                margin-top: 30px;
+                background-color: #FC9C1D;
+                color: white;
+                font-weight: 300;
+                font-size: 18px;
+                border-radius: 33px;
+                box-shadow: 0px 3px 6px #00000029;
+              
+                margin-left: 5px;
+            }
+           }
+            .right-content{
+               transition: all ease-in-out 1s;
+                 width: 80%;
+                scroll-behavior: smooth;
+                padding: 3% 0%;
+                overflow: hidden;
+                // height: 570px;
+                overflow-x: scroll;
+                
+               
+                
+                .inner-content-1{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                }
+                .inner-content-2{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-start;
+
+                }
+                
+                
+                .inner-image{
+                    // margin: 1.2%;
+                    // box-shadow: 0px 3px 6px #00000029;
+                    // border: 1px solid red;
+                    //
+                    .inner-title{
+                        text-align: center;
+                        color: #444444;
+                        font-size: 12px;
+                        font-weight: 600;
+                        padding: 3%;
+                    }
+                }
+                .direction{
+                    position: absolute;
+                    background-color: white;
+                    display: flex;
+                    bottom: -20px;
+                    right: 0;
+                    z-index:5;
+                }
+
+            /* width */
+&::-webkit-scrollbar {
+    height: 8px;
+  
+   
+  }
+  
+  /* Track */
+ &::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  
+  }
+   
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: #FC9C1D; 
+    border-radius: 6px;
+   
+  }
+  
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: #003366; 
+  }
+               
+            }
+          
+        }
+    }
+    .left-decoration{
+        position: absolute;
+        left: 0;
+        top: 27%;
+        z-index: -1;
+    }
+    .right-decoration{
+        position: absolute;
+        right: 0;
+        bottom: 44%;
+    }
+}
+
+.image-container {
+ 
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    position: relative;
+    background-color: #ffff;
+   margin: 0% 1%;
+    width:234px;
+    border-radius: 5px;
+     border:1px solid #00000029;
+
+       box-shadow: 0px 3px 6px #00000029;
+
+    img{
+        width: 160px;
+        height: 160px;
+        padding: 5%;
+        // display: none;
+    }
+
+    .inner-title{
+        width:234px;
+        color:#003366;
+        font-size: 14px;
+        font-weight: bold;
+        white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+        padding: 1% 3%;
+    }
+
+
+    .inner-title-2{
+       width:234px;
+        color:    #FC9C1D;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 1% 2%;
+       
+    }
+
+    .content-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .toolip-content{
+        width: 30%;
+        padding: 1% 2%;
+       
+        background-color: #01BF69;
+        color: white;
+        border-radius: 0px 12px 0px 0px;
+    }
+
+    .button{
+        background-color: #003366;
+        color: white;
+        border: none;
+        border-radius: 15px;
+        
+        padding: 10px 20px;
+        margin: 4% 0%;
+      
+    }
+
+
+}
+
+
+  
+
+
+@media only screen and (max-width: 768px){
+
+    .contents-container{
+     
+        .section-1{
+            width: 100%;
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            .left-section{
+                font-size: 35px;
+                width: 100%;
+                span{
+                    color: #F8A438;
+                }
+                .input-section {
+                    display: none;
+                   padding: 5%;
+                 
+        
+                    .input {
+                        width: 100%;
+                       
+                    }
+        
+                    .btn-alt {
+                        padding: 10px 20px;
+                      
+                    }
+                }
+                .square-decor{
+                  
+                    right: 30px;
+                    top: 0;
+                    z-index: -1;
+                }
+                .playstore{
+            
+                    .img-fluid{
+                        width: 35vw;
+                    }
+                }
+            }
+            .right-section{
+                width: 100%;
+                height: 46vw;
+                position: relative;
+             
+              .invent-1{
+                width: 70vw;
+              }
+    
+              .inner-right-content{
+                position: absolute;
+                right: -20%;
+                top: -17% ;
+              }
+                
+    
+              
+    
+                
+               
+               
+            }
+            
+        }
+        .section-3{
+           
+            .title-content{
+               display: block;
+               width: 100%;
+               .input-section {
+                padding: 5%;
+             
+    
+                .input {
+                    width: 100%;
+                    
+                }
+    
+                .btn-alt {
+                    padding: 10px 20px;
+                    
+                }
+            }
+            }
+            .body-content{
+                display: block;
+                text-align: center;
+                margin-top: 20px;
+               .left-content{
+                 width: 100%;
+                 padding: 10% 0%;
+               
+                .inner-image::after{
+                    content: url(https://supplybuy.s3.ap-south-1.amazonaws.com/website/images/round-decoration.svg);
+                    position: absolute;
+                    width: 50px;
+                    top: 0;
+                   left: 0;
+                    z-index: -1;
+                }
+                .inner-title{
+                   text-align: center;
+                }
+                .count-content{
+                    color: #2B2B2B;
+                    font-size: 20px;
+                }
+                .heading-decoration{
+                    .img-fluid{
+                        width: 50px;
+                    }
+                    right: 0;
+                    bottom: 100px;
+                    z-index: -1;
+                }
+               }
+                .right-content{
+                   width: 110%;
+                  padding: -5%;
+                  margin: -5%;
+                 
+
+                   
+                //    height: 200px;
+                 
+                   overflow-x: scroll;
+                   flex-wrap: nowrap;
+                    .inner-image{
+                       padding: 3%;
+                        // box-shadow: 0px 3px 6px #00000029;
+                      
+                    }
+
+                   
+                }
+            }
+        }
+
+        .left-decoration{
+           .img-fluid{
+            width: 50px;
+           }
+           z-index: -2;
+        }
+        .right-decoration{
+            .img-fluid{
+                width: 50px;
+               }
+               z-index: -2;
+        }
+    }
+
+    .image-container {
+ 
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+      
+        position: relative;
+        background-color: #ffff;
+        margin:0% 1.5%;
+        width:170px;
+       
+        border-radius: 5px;
+        border:1px solid #00000029;
+   
+          box-shadow: 0px 3px 6px #00000029;
+    
+        img{
+            width: 120px;
+            height: 120px;
+            padding: 10%;
+            // display: none;
+        }
+    
+        .inner-title{
+            width:170px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color:#003366;
+            text-align: left;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 1% 3%;
+        }
+    
+    
+        .inner-title-2{
+           width:170px;
+           text-align: left;
+           white-space: nowrap;
+           overflow: hidden;
+           text-overflow: ellipsis;
+            color:    #FC9C1D;
+            font-size: 10px;
+            font-weight: 600;
+            padding: 1% 2%;
+           
+        }
+    
+        .content-image{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .toolip-content{
+            width: 50%;
+            padding: 1% 2%;
+            font-size: 10px;
+           
+            background-color: #01BF69;
+            color: white;
+            border-radius: 0px 12px 0px 0px;
+        }
+    
+        .button{
+            background-color: #003366;
+            color: white;
+            border: none;
+            border-radius: 15px;
+            
+            padding: 5px 10px;
+            margin: 4% 0%;
+          
+        }
+    
+    
+    }
+}
